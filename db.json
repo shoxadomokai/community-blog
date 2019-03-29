@@ -11,12 +11,50 @@
   "profile": {
     "name": "typicode"
   },
-  "users": {
+  "users": [{
     "id": 1.
     "token": "string",
     "name": "string",
     "email": "string",
     "password": "some random password",
     "CreatedAt": "new Date()"
-  }
+  }],
+  "tokens": [{
+		"id": 1,
+		"token": "QpwL5tke4Pnpja7X1"
+	}, {
+		"id": 2,
+		"token": "QpwL5tke4Pnpja7X2"
+	}, {
+		"id": 3,
+		"token": "QpwL5tke4Pnpja7X3"
+	}, {
+		"id": 4,
+		"token": "QpwL5tke4Pnpja7X4"
+	}, {
+		"id": 5,
+		"token": "QpwL5tke4Pnpja7X5"
+	}, {
+		"id": 6,
+		"token": "QpwL5tke4Pnpja7X6"
+	}, {
+		"id": 7,
+		"token": "QpwL5tke4Pnpja7X7"
+	}, {
+		"id": 8,
+		"token": "QpwL5tke4Pnpja7X8"
+	}, {
+		"id": 9,
+		"token": "QpwL5tke4Pnpja7X9"
+	}, {
+		"id": 10,
+		"token": "QpwL5tke4Pnpja7X10"
+	}, {
+		"id": 11,
+		"token": "QpwL5tke4Pnpja7X11"
+	}, {
+		"id": 12,
+		"token": "QpwL5tke4Pnpja7X12"
+	}]
+  
 }
