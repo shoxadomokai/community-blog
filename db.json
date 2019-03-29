@@ -12,7 +12,7 @@
     "name": "typicode"
   },
   "users": [{
-    "id": 1.
+    "id": 1,
     "token": "string",
     "name": "string",
     "email": "string",
