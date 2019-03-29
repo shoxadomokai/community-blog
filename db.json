@@ -1,60 +1,166 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "article_tag": [
+    {
+      "article_id": 1,
+      "created_at": null,
+      "id": 1,
+      "tag_id": "[1,2,3]",
+      "updated_at": null
+    },
+    {
+      "article_id": 2,
+      "created_at": null,
+      "id": 2,
+      "tag_id": "[1,2,3]",
+      "updated_at": null
+    },
+    {
+      "article_id": 3,
+      "created_at": null,
+      "id": 3,
+      "tag_id": "[1,2,3]",
+      "updated_at": null
+    },
+    {
+      "article_id": 4,
+      "created_at": null,
+      "id": 4,
+      "tag_id": "[1,2,3]",
+      "updated_at": null
+    },
+    {
+      "article_id": 5,
+      "created_at": null,
+      "id": 5,
+      "tag_id": "[1,2,3]",
+      "updated_at": null
+    },
+    {
+      "article_id": 6,
+      "created_at": null,
+      "id": 6,
+      "tag_id": "[1,2,3]",
+      "updated_at": null
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+
+  "articles": [
+    {
+      "category_id": 1,
+      "content": "first article content",
+      "created_at": "2018-02-27 07:58:52",
+      "id": 1,
+      "imageUrl": "https://google.com",
+      "slug": "first-article",
+      "title": "first article",
+      "updated_at": "2018-02-27 07:58:52",
+      "user_id": 1
+    },
+    {
+      "category_id": 1,
+      "content": "first article content",
+      "created_at": "2018-02-27 07:59:02",
+      "id": 2,
+      "imageUrl": "https://google.com",
+      "slug": "first-article",
+      "title": "first article",
+      "updated_at": "2018-02-27 07:59:02",
+      "user_id": 1
+    },
+    {
+      "category_id": 1,
+      "content": "first article content",
+      "created_at": "2018-02-27 07:59:42",
+      "id": 3,
+      "imageUrl": "https://google.com",
+      "slug": "first-article",
+      "title": "first article",
+      "updated_at": "2018-02-27 07:59:42",
+      "user_id": 1
+    },
+    {
+      "category_id": 1,
+      "content": "first article content",
+      "created_at": "2018-02-27 07:59:55",
+      "id": 4,
+      "imageUrl": "https://google.com",
+      "slug": "first-article",
+      "title": "first article",
+      "updated_at": "2018-02-27 07:59:55",
+      "user_id": 1
+    },
+    {
+      "category_id": 1,
+      "content": "first article content",
+      "created_at": "2018-02-27 08:00:02",
+      "id": 5,
+      "imageUrl": "https://google.com",
+      "slug": "first-article",
+      "title": "first article",
+      "updated_at": "2018-02-27 08:00:02",
+      "user_id": 1
+    },
+    {
+      "category_id": 1,
+      "content": "first article content",
+      "created_at": "2018-02-27 08:00:15",
+      "id": 6,
+      "imageUrl": "https://google.com",
+      "slug": "first-article",
+      "title": "first article",
+      "updated_at": "2018-02-27 08:00:15",
+      "user_id": 1
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  },
-  "users": [{
-    "id": 1,
-    "token": "string",
-    "name": "string",
-    "email": "string",
-    "password": "some random password",
-    "CreatedAt": "new Date()"
-  }],
-  "tokens": [{
-		"id": 1,
-		"token": "QpwL5tke4Pnpja7X1"
-	}, {
-		"id": 2,
-		"token": "QpwL5tke4Pnpja7X2"
-	}, {
-		"id": 3,
-		"token": "QpwL5tke4Pnpja7X3"
-	}, {
-		"id": 4,
-		"token": "QpwL5tke4Pnpja7X4"
-	}, {
-		"id": 5,
-		"token": "QpwL5tke4Pnpja7X5"
-	}, {
-		"id": 6,
-		"token": "QpwL5tke4Pnpja7X6"
-	}, {
-		"id": 7,
-		"token": "QpwL5tke4Pnpja7X7"
-	}, {
-		"id": 8,
-		"token": "QpwL5tke4Pnpja7X8"
-	}, {
-		"id": 9,
-		"token": "QpwL5tke4Pnpja7X9"
-	}, {
-		"id": 10,
-		"token": "QpwL5tke4Pnpja7X10"
-	}, {
-		"id": 11,
-		"token": "QpwL5tke4Pnpja7X11"
-	}, {
-		"id": 12,
-		"token": "QpwL5tke4Pnpja7X12"
-	}]
-  
+
+  "categories": [],
+
+  "migrations": [
+    {
+      "batch": 1,
+      "id": 7,
+      "migration": "2016_03_08_164317_create_users_table"
+    },
+    {
+      "batch": 1,
+      "id": 8,
+      "migration": "2016_03_08_164400_create_password_resets_table"
+    },
+    {
+      "batch": 1,
+      "id": 9,
+      "migration": "2018_02_27_071803_create_tags_table"
+    },
+    {
+      "batch": 1,
+      "id": 10,
+      "migration": "2018_02_27_071837_create_articles_table"
+    },
+    {
+      "batch": 1,
+      "id": 11,
+      "migration": "2018_02_27_072134_create_categories_table"
+    },
+    {
+      "batch": 1,
+      "id": 12,
+      "migration": "2018_02_27_073309_create_article_tag_table"
+    }
+  ],
+
+  "password_resets": [],
+
+  "tags": [],
+
+  "users": [
+    {
+      "created_at": "new Date",
+      "email": "bahdcoder@gmail.com",
+      "id": 1,
+      "name": "bahdcoder",
+      "password": "$2y$10$owehRDZ/juideMeNKazzPOIQAACD4MTtwCT/0gn5FMj1plr8pqWSS",
+      "remember_token": "null",
+      "updated_at": "new Date()"
+    }
+  ]
 }
