@@ -10,5 +10,13 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "users": {
+    "id": 1.
+    "token": "string",
+    "name": "string",
+    "email": "string",
+    "password": "some random password",
+    "CreatedAt": "new Date()"
   }
 }
